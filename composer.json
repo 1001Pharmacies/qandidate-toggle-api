@@ -21,10 +21,16 @@
         "homepage": "http://labs.qandidate.com/"
       }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/1001Pharmacies/qandidate-toggle"
+      }
+    ],
     "require": {
         "php": ">=5.3.2",
         "silex/silex": "^1.0",
-        "qandidate/toggle": "^0.2@dev",
+        "qandidate/toggle": "dev-master",
         "predis/service-provider": "^0.4@dev",
         "asm89/stack-cors": "^0.2.1@dev",
         "vlucas/phpdotenv": "^2.0"
